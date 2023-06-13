@@ -1,1 +1,1 @@
-# easylanding.github.io
+# easylanding-website-from-frontend-mentor
