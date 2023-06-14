@@ -39,7 +39,7 @@ body {
     max-width: 80%;
     min-width: 375px;
     height: 100vh;
-    margin: 0px auto;
+    margin: 0px 20px;
     font-family: var(--primaryFont);
     overflow-x: hidden;
     text-align: center;
