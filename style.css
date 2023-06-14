@@ -133,13 +133,16 @@ body {
 
 .section-3 {
     text-align:left;
+   
 }
 
 .section-3 h2 {
     font-weight: 400;
 }
 .section-3-items img {
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
 }
 
 .section-3-items a{
@@ -152,12 +155,20 @@ body {
     font-weight:300 ;
 }
 
+
 .section-3-items {
     background-color: var(--White);
     margin: 40px 0px;
 }
+.section-3-items a {
+    display: block;
+    
+}
+
 
 .section-3-items a, h3 , p {
+    width: 90%;
+    margin: 10px auto;
     padding: 20px 10px;
 }
 
