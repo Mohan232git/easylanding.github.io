@@ -159,6 +159,7 @@ body {
 .section-3-items {
     background-color: var(--White);
     margin: 40px 0px;
+    min-width: 375px;
 }
 .section-3-items a {
     display: block;
