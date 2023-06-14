@@ -72,7 +72,6 @@ body {
     min-height: 17.5rem;
     overflow: hidden;
     min-width: 375px;
-    min-width: 375px;
 }
 
 
@@ -139,14 +138,16 @@ body {
 .section-3-items {
     background-color: var(--White);
     margin: 40px 0px;
-    min-width: 375px;
+    min-width: 300px;
+    
 }
 
 .section-3 h2 {
+    margin-left:20px ;
     font-weight: 400;
 }
 .section-3-items img {
-    width: 90%;
+    width: 100%;
     display: block;
     margin: 0px auto;
 }
