@@ -39,7 +39,7 @@ body {
     max-width: 80%;
     min-width: 375px;
     height: 100vh;
-    margin: 0px 20px;
+    margin: 0px auto;
     font-family: var(--primaryFont);
     overflow-x: hidden;
     text-align: center;
@@ -136,6 +136,12 @@ body {
    
 }
 
+.section-3-items {
+    background-color: var(--White);
+    margin: 40px 0px;
+    min-width: 375px;
+}
+
 .section-3 h2 {
     font-weight: 400;
 }
@@ -156,11 +162,7 @@ body {
 }
 
 
-.section-3-items {
-    background-color: var(--White);
-    margin: 40px 0px;
-    min-width: 375px;
-}
+
 .section-3-items a {
     display: block;
     
