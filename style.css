@@ -34,7 +34,7 @@ span , p {
 }
 
 body {
-    max-width: 80%;
+    max-width: 70%;
     min-width: 375px;
     height: 100vh;
     margin: 0px auto;
@@ -44,6 +44,7 @@ body {
     font-size: 18px;
     line-height: 2;
     background-color: var(--VeryLightGray);
+    position: relative;
     
 }
 
@@ -69,6 +70,10 @@ body {
     right: 20px;
     margin-top: 10px;
 
+}
+
+.close{
+    width: 50px;
 }
 
 .linkswrapper {
@@ -168,7 +173,7 @@ body {
     font-weight: 400;
 }
 .section-3-items img {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto;
     display: block;
     border-top-left-radius:10px ;
@@ -244,8 +249,39 @@ footer span {
 }
 
 
+.menu .menu-container li {
+    list-style: none;
+}
+
+.menu-container li a {
+    text-decoration: none;
+    color: var(--GrayishBlue);
+}
+
+.menu {
+    position: absolute;
+    margin: 20px auto;
+    background-color: var(--White);
+    overflow: visible;
+    min-width: 80%;
+    top:-100vh;
+    left: 40px;
+    z-index: 1;
+    border-radius: 20px;
+    padding: 30px;
+    transition: top 1;
+    
+}
+
+.menu-container li a:hover {
+    color: var(--LimeGreen);
+}
 
 @media(min-width:600px) {
+
+    .menu {
+        display: none;
+    }
 
     body {
        min-width: 100%;
